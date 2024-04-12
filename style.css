@@ -1,0 +1,15 @@
+@font-face {
+    font-family: FontRegular;
+    src: url(Assets/Fonts/sf-pro-display_regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: FontRegular;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
