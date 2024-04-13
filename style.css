@@ -93,3 +93,7 @@ nav i{
 .text-bloc-2{
     color: #333;
 }
+
+.bloc-3{
+    background-image: url(visuals/macbook-air.jpg);
+}
