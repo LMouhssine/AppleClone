@@ -85,3 +85,11 @@ nav i{
 .link a:hover{
     border-bottom: 1px solid rgb(26, 141, 242);
 }
+
+.bloc-2{
+    background-image: url(visuals/iphone15.jpg);
+}
+
+.text-bloc-2{
+    color: #333;
+}
