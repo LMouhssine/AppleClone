@@ -1,56 +1,61 @@
 @font-face {
     font-family: FontRegular;
-    src: url(Assets/Fonts/sf-pro-display_regular.ttf);
+    src: url(visuals/sf-pro-display_regular.ttf);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: FontRegular;
 }
-html , body{
+
+html , body {
     height: 100%;
     width: 100%;
 }
 
-#main{
+#main {
     width: 100%;
     min-height: 100vh;
 }
 
-nav{
+nav {
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2vw;
+    gap: 2.2vw;
     width: 100%;
     height: 5vh;
-    background-color: #f2f2f2;
+    background-color: rgb(29, 29, 31);
     z-index: 50;
 }
 
-nav a{
+nav a {
     text-decoration: none;
-    color: #333;
+    color: white;
+    font-size: 0.9vw;
 }
 
-nav i{
+nav i {
     font-size: 1.1vw;
 }
 
-.bloc-1{
+.bloc-1 {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 70vh;
+    height: 88vh;
     background-image: url(visuals/iphone15-pro.jpg);
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.text-bloc-1{
+.text-bloc-1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,39 +66,64 @@ nav i{
     color: #fff;
 }
 
-.text-bloc-1 h1{
-    font-size: 3vw;
+.text-bloc-1 h1 {
+    font-size: 3.8vw;
+    line-height: 0.4;
+    margin-bottom: 0.5em;
 }
 
-.text-bloc-1 p{
-    font-size: 1.6vw;
+.text-bloc-1 p {
+    font-size: 1.9vw;
+    line-height: 0.4;
+    margin-bottom: 0.7em;
 }
 
-.link{
+.link {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2vw;
+    gap: 1.3vw;
 }
 
-.link a{
+.link a {
     text-decoration: none;
+    font-size: 1.3vw;
+    padding: 10px 20px;
+    border: 1px solid rgb(26, 141, 242);
+    border-radius: 30px;
     color: rgb(26, 141, 242);
-    font-size: 1.2vw;
+    transition: border-color 0.3s ease;
 }
 
-.link a:hover{
-    border-bottom: 1px solid rgb(26, 141, 242);
+.link a.more {
+    color: white;
+    background-color: rgb(26, 141, 242);
+    padding: 0.5em 1em;
+    border-radius: 30px;
 }
 
-.bloc-2{
+.link a.more:hover {
+    background-color: rgb(16, 111, 196);
+}
+
+.link a:hover {
+    border-color: transparent;
+    background-color: rgb(26, 141, 242);
+    color: white;
+}
+
+.bloc-2 {
     background-image: url(visuals/iphone15.jpg);
 }
 
-.text-bloc-2{
-    color: #333;
+.text-bloc-2 {
+    color: black;
 }
 
-.bloc-3{
+.bloc-3 {
     background-image: url(visuals/macbook-air.jpg);
+}
+
+.text-bloc-3 {
+    color: black;
 }
