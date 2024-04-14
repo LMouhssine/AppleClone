@@ -114,6 +114,8 @@ nav i {
 
 .bloc-2 {
     background-image: url(visuals/iphone15.jpg);
+    background-size: cover;
+    height: 100vh;
 }
 
 .text-bloc-2 {
@@ -122,8 +124,63 @@ nav i {
 
 .bloc-3 {
     background-image: url(visuals/macbook-air.jpg);
+    background-size: cover;
+    height: 100vh;
 }
 
 .text-bloc-3 {
     color: black;
+}
+
+.bloc-4 {
+    display: flex;
+    width: 100%;
+}
+
+.bloc-4-1 {
+    height: 70vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-image: url(visuals/macbook-pro.jpg);
+    background-size: cover;
+}
+
+.bloc-4 .link a {
+    font-size: 0.9em;
+}
+
+.bloc-4 .text-bloc-1 h1 {
+    font-size: 2.5em;
+}
+
+.bloc-4 .text-bloc-1 p {
+    font-size: 1.2em;
+}
+
+.bloc-4-2 {
+    height: 70vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-image: url(visuals/apple-watch.jpg);
+    background-size: cover;
+}
+
+.bloc-4-2 img {
+    max-width: 50%;
+}
+
+.bloc-4 .link a {
+    font-size: 0.9em;
+}
+
+.bloc-4 .text-bloc-2 h1 {
+    font-size: 2.5em;
+}
+
+.bloc-4 .text-bloc-2 p {
+    color: white;
+    font-size: 1.2em;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-weight: 100;
 }
