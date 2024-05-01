@@ -209,6 +209,36 @@ nav i {
     background-size: cover;
 }
 
+.bloc-4-5 {
+    margin-right: 5px;
+    margin-top: 10px;
+    height: 70vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-image: url(visuals/homepode.jpg);
+    background-size: cover;
+}
+
+.bloc-4-6 {
+    margin-left: 5px;
+    margin-top: 10px;
+    height: 70vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-image: url(visuals/tradein.jpg);
+    background-size: cover;
+}
+
+.bloc-4-6 img {
+    max-width: 50%;
+}
+
+.bloc-1.bloc-4-6 p {
+    text-align: center;
+    color:  rgb(29, 29, 31);
+    line-height: 1.3em;
+}
+
 .white {
     color: white;
 }
