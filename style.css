@@ -138,6 +138,8 @@ nav i {
 }
 
 .bloc-4-1 {
+    margin-right: 5px;
+    margin-top: 10px;
     height: 70vh;
     width: 50%;
     background-repeat: no-repeat;
@@ -158,6 +160,8 @@ nav i {
 }
 
 .bloc-4-2 {
+    margin-left: 5px;
+    margin-top: 10px;
     height: 70vh;
     width: 50%;
     background-repeat: no-repeat;
@@ -183,4 +187,28 @@ nav i {
     margin-top: 12px;
     margin-bottom: 12px;
     font-weight: 100;
+}
+
+.bloc-4-3 {
+    margin-right: 5px;
+    margin-top: 10px;
+    height: 70vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-image: url(visuals/ipad.jpg);
+    background-size: cover;
+}
+
+.bloc-4-4 {
+    margin-left: 5px;
+    margin-top: 10px;
+    height: 70vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-image: url(visuals/airpods.jpg);
+    background-size: cover;
+}
+
+.white {
+    color: white;
 }
