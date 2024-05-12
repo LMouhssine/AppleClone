@@ -10,7 +10,8 @@
     font-family: FontRegular;
 }
 
-html , body {
+html,
+body {
     height: 100%;
     width: 100%;
 }
@@ -235,10 +236,96 @@ nav i {
 
 .bloc-1.bloc-4-6 p {
     text-align: center;
-    color:  rgb(29, 29, 31);
+    color: rgb(29, 29, 31);
     line-height: 1.3em;
 }
 
 .white {
     color: white;
 }
+
+.slider-bloc {
+    padding: 2vh 0vw;
+    width: 100%;
+    height: 70vh;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide {
+    width: 90%;
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-1 {
+    background-image: url(visuals/sugar.jpg);
+}
+
+.swiper-2 {
+    background-image: url(visuals/thenewlook.jpg);
+}
+
+.swiper-3 {
+    background-image: url(visuals/palmroyale.jpg);
+}
+
+.swiper-4 {
+    background-image: url(visuals/mastersoftheair.jpg);
+}
+
+.swiper-5 {
+    background-image: url(visuals/monarch.jpg);
+}
+
+.swiper-6 {
+    background-image: url(visuals/loot.jpg);
+}
+
+.swiper-7 {
+    background-image: url(visuals/manhunt.jpg);
+}
+
+.swiper-8 {
+    background-image: url(visuals/criminalrecord.jpg);
+}
+
+.swiper-9 {
+    background-image: url(visuals/slowhorses.jpg);
+}
+
+.swiper-10 {
+    background-image: url(visuals/thefamilyplan.jpg);
+}
+
+.responsive-nav {
+    position: absolute;
+    top: -120%;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    z-index: 99;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+
+/* Not feeling up to media queries right now. I'm thinking I'll grab a cup of coffee and maybe, just maybe, I'll come back and tackle the responsive stuff. But for now, let's just dream of neatly aligned pixels in my coffee cup. ☕️😴 */
